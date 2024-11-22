@@ -27,7 +27,7 @@ project.excludePaths = [
 ]
 ```
 
-The `include` directive does not allow URLs, so it will need to be a local file, or a symlink to a local file. For myself, I made a source downloader script configured via sbt. You can see it [Laminar](https://github.com/raquo/laminar) repo – see `project/SourceDownloader.scala` and its usage in `build.sbt`. Maybe I'll publish it as a library eventually, but it's nothing special.
+The `include` directive does not allow URLs, so it will need to be a local file, or a symlink to a local file. For myself, I made a source downloader script configured via sbt. You can see it [Laminar](https://github.com/raquo/laminar) repo – see the usage of `SourceDownloader` in `build.sbt`. It's published as part of [buildkit](https://github.com/raquo/buildkit).
 
 
 ## Limitations and workarounds
